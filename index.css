@@ -1,0 +1,19 @@
+#notifications {
+  background-color: white;
+  width: 500px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.notification {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
