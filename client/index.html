@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link href='./index.css' rel='stylesheet' />
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+  </head>
+  <body>
+
+    <div id='app'></div>
+    <script src='./index.js' type='text/babel'></script>
+
+    <h1>Implement a notification dialog system</h1>
+
+    <strong>Requirements:</strong>
+    <ul>
+      <li>Grab notifications from GET /notifications endpoint.</li>
+      <li>Show the notifications in order of most recent first.</li>
+      <li>Each notifications should be able to be closed.</li>
+      <li>The notifications should show on the top-right corner of the page without pushing the contents down.</li>
+      <li>The notification should have a black border and the contents should be vertically centered.</li>
+      <li>If multiple notifications are present, they should be stacked on top of each other.</li>
+      <li>Create a POST endpoint that allows one to remove a notification. If the page is refreshed after notification is removed, previously removed notification should not be shown.</li>
+    </ul>
+
+  </body>
+</html>
