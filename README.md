@@ -6,7 +6,11 @@
 
 ### Installation
 
-`npm install`
+```
+git clone  https://github.com/aoxrud-ww/full-stack-interview.git
+cd full-stack-interview/
+npm install
+```
 
 ### Running
 
